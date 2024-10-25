@@ -12,3 +12,15 @@
     }
 ]
 ```
+
+## Component tree
+```mermaid
+flowchart TD
+    A[App] --> B(Pages)
+    B --> C[Dashboard]
+    B --> D[ContactView]
+    C --> E(ContactList)
+    C --> F(ContactListItem)
+    D --> G(Create)
+    D --> H(View)
+```
